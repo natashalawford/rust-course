@@ -1,0 +1,10 @@
+fn main() {
+    // PART 1
+    let missiles: i32 = 8;
+    let ready: i32 = 2;
+    println!("Firing {} of my {} missiles...", ready, missiles);
+    
+    // PART 2
+    missiles = missiles - ready;
+    println!("{} missiles left", missiles);
+}
