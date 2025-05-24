@@ -19,9 +19,9 @@ fn area_of(x: i32, y: i32) -> i32 {
     //            `return` on the last line of a function. Change the last line to be a
     //            "tail expression" that returns a value without using `return`.
     //            Hint: `cargo clippy` will warn you about this exact thing.
-    //            Note: I just removed the uneeded "return" and semi-colon
+    //            Note: I just removed the uneeded "return"
 }
 
 fn volume(width: i32, height: i32, depth: i32) -> i32 {
-   height * width * depth
+   return height * width * depth;
 }
